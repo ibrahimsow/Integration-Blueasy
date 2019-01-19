@@ -1,0 +1,401 @@
+body {
+	margin:0;
+	padding: 0;
+	font-family: segoe UI;
+}
+header {
+	margin: 0;
+	margin-top: 0;
+	background:url(img/section-hero.png);
+	background-size: cover;
+	height: 638px;
+}
+
+.eblue {
+	color: #4bcaff;
+} 
+nav {
+	width: 100%;
+	position: fixed;
+	margin:0;
+	background-color: black;
+	opacity: 0.8;
+	height: 13%;
+	margin-top: -5px;
+}
+.h1lien{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 20%;
+	height: 100%;
+
+}
+h1{
+	color: white;
+	font-size: 30px;
+	font-family: segoe UI;
+}	
+.lienheader {
+	margin: 0;
+	background-color: black;
+	font-size: 14px;
+	font-family: segoe UI;
+	}
+	.lienheader a {
+		text-decoration: none;
+		color: white;
+		padding: 5px;
+	}
+	.lienheader a:hover{
+	border: solid #4bcaff;
+	color: #4bcaff;
+}
+.imlooking  {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+ 	position: relative;
+ 	top: 48%;
+}
+.imlooking p {
+	margin: 3px;
+	font-family: segoe UI;
+	font-size: 42px;
+	font-weight: lighter;
+
+}
+.bkimlooking{
+	background-color: rgba(0,0,0,0.5);
+    background-size: 15px;
+}
+h2{
+	font-family: segoe UI;
+	font-size: 30px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	margin: 0;
+	border: 0;
+
+}
+h2:after{
+	content: "___";
+	display: block;
+	margin-top: -28px;
+	font-weight: bold;
+	
+}
+.services {
+
+	padding: 80px 20%;
+	margin: 0;
+	background-color: #4bcaff;
+	height: 40vh;
+	color: white;
+}
+.boiteservice {
+	display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.h2services {
+	font-size: 25px;
+	margin: 0;
+	margin-bottom: 25px;
+	color: white;
+}
+
+.iconeservice{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+	margin: 5px;
+	font-size: 23px;
+	color: white;
+}
+.iconeservice p {
+	font-size: 12px;
+
+}
+.portfolio{
+	height: 685px;
+	padding: 80px 20%;
+	margin: 0;
+
+}
+.boiteport{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.navport {
+	width: 100%;
+	padding: 0;
+	margin:0;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+
+}
+
+.lienport a{
+	text-decoration: none;
+	color:black;
+	float: right;
+	font-size: 14px;
+    font-family: segoe UI;
+    margin: 8px;
+	padding: 6px;
+
+}
+.lienport a:hover{
+	border: solid #4bcaff;
+	color: #4bcaff;
+
+}
+.imgportofolio {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto auto;
+	grid-row-gap: 20px;
+	grid-column-gap: 20px;
+}
+.imgportofolio img{
+line-height: 260px;
+}
+.cadre{
+	position: relative;
+	overflow: hidden;
+	height: 260px;
+	width: 260px;
+	margin: 0;
+	padding: 0;
+
+}
+.hover{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 260px;
+	opacity: 0;
+	color: white;
+	font-size: 50px;
+	margin: 0;
+	padding: 0;
+}
+.cadre:hover .hover{
+
+    opacity: 1;
+    transition: .5s ease;
+
+    
+}
+
+.justselection {
+	height: 315px;
+	padding: 80px 20%;
+	margin: 0;
+	background-color: #515f67;
+	display: flex;
+	justify-content: space-between;
+
+}
+.textselection {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 14px;
+    font-family: segoe UI;
+}
+.textselection a{
+	text-decoration: none;
+	color: #353f46;
+	text-transform: uppercase;
+	border: solid #353f46;
+	margin: 0;
+	padding: 7px;
+    width: 56px;
+}
+.twitter{
+	height: 200px;
+	padding: 80px 20%;
+	margin: 0;
+	background-color: #4bcaff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.twitter h2{
+	color: white;
+}
+.logotwitter img{
+	float: right;
+	height: 50px;
+	color: white;
+
+}
+.texttwitter{
+	color: white;
+	font-size: 28px;
+    font-family: segoe UI;
+}
+.who {
+	background: url(img/who.png);
+	background-size: cover;
+	height: 340px;
+	color: white;
+	padding: 80px 20%;
+}
+.boitewho {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.boitetextwho{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 50px;
+
+}
+.textwho p{
+	font-family: segoe UI;
+	font-size: 14px;
+
+}
+.textwhoicone p{
+	font-family: segoe UI;
+	font-size: 14px;
+
+}
+.logowho i{
+	border: solid white 3px;
+	font-size: 30px;
+	height: 60px;
+	width: 60px;
+   text-align: center;
+   line-height: 60px;
+}
+.testi{
+	height: 200px;
+	padding: 80px 20%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.h2gime{
+	display: flex;
+	justify-content: space-between;
+}
+.gime i{ 
+	font-size: 25px; 
+	color: #515f67;
+
+}
+.texttesti{
+	font-family: segoe UI;
+	font-size: 28px;
+	font-weight: lighter;
+}
+.walter{
+	color: #4bcaff;
+	font-family: segoe UI;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 30px;
+
+}
+
+
+
+.contact{
+	background: url(img/section-contact.png);
+	background-size: cover;
+	height: 700px;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	padding: 80px 20%;
+}
+
+.namemailtext{
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+}
+.text{
+	font-size: 14px;
+	font-family: segoe Ui;
+	color: white;
+	padding-top: 35px;
+
+
+
+}
+.fullname{
+margin-right: 50px; 
+}
+footer h2{
+	color: white;
+
+}
+
+.casefull{
+	height: 60px;
+	width: 470px;
+	background: transparent;
+	border: solid 3px white;
+	color: white;
+}
+.casefull2{
+	height: 216px;
+	width: 1168px;
+	background: transparent;
+	border: solid 3px white;
+	color: white;
+}
+h4{
+	color: white;
+	font-family: segoe UI;
+	font-size: 14px;
+	font-weight: bold;
+}
+.boitecontact{
+	width: 1170px;
+}
+
+.boutonmessage{
+	color: white;
+	font-family: segoe UI;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 42px;
+	background-color: #4bcaff;
+	border: none; 
+	height: 60px;
+	width: 360px
+	
+
+}
+.finalfooter {
+	background-color: #353f47;
+	margin-top: -5px;
+	display: flex;
+	justify-content: space-between;
+	padding: 80px 20%;
+	font-family: segoe UI;
+	color: #4e5b63;
+	
+}
