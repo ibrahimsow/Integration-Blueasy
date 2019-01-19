@@ -8,47 +8,44 @@ body {
     margin-top: -30px;
     margin-bottom: 30px;
     font-weight: bold; }
+  body .bg-light {
+    background-color: black !important; }
+  body nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    opacity: 0.8;
+    height: 10vh;
+    margin-top: -5px; }
+    body nav h1 {
+      color: white;
+      font-size: 30px;
+      font-family: segoe UI; }
+      body nav h1 .eblue {
+        color: #4bcaff; }
+    body nav .lienheader {
+      margin: 0;
+      font-size: 14px;
+      font-family: segoe UI; }
+      body nav .lienheader:hover {
+        border: solid #4bcaff;
+        color: #4bcaff; }
+      body nav .lienheader .a {
+        text-decoration: none;
+        color: white;
+        padding: 0px;
+        transition: 0.3s; }
   body header {
     height: 65vh;
     padding: 0 !important;
     background: url(img/section-hero.png);
     background-size: cover;
     background-position: center; }
-    body header nav {
-      width: 100%;
-      position: fixed;
-      top: 0;
-      margin: 0;
-      background-color: black;
-      opacity: 0.8;
-      height: 10vh;
-      margin-top: -5px; }
-      body header nav h1 {
-        color: white;
-        font-size: 30px;
-        font-family: segoe UI; }
-        body header nav h1 .eblue {
-          color: #4bcaff; }
-      body header nav .lienheader {
-        margin: 0;
-        background-color: black;
-        font-size: 14px;
-        font-family: segoe UI; }
-        body header nav .lienheader a {
-          text-decoration: none;
-          color: white;
-          padding: 5px;
-          margin: 5px;
-          transition: 0.3s; }
-          body header nav .lienheader a:hover {
-            border: solid #4bcaff;
-            color: #4bcaff; }
     body header .imlooking {
       color: white;
       font-size: 35px;
-      text-align: center;
-      position: relative;
-      top: 40%; }
+      text-align: center; }
       body header .imlooking p {
         margin: 3px;
         font-family: segoe UI;
@@ -236,7 +233,7 @@ body {
       background-color: #4bcaff;
       border: none;
       height: 50px;
-      width: 360px; }
+      width: 50%; }
   body .finalfooter {
     background-color: #353f47;
     margin-top: -5px;
