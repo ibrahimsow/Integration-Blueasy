@@ -18,12 +18,18 @@ body {
         top: 0;
         margin:0;
         opacity: 0.8;
-        height: 10vh;
         margin-top: -5px;
+        padding: 15px !important;
         h1{ 
             color: white;
             font-size: 30px;
             font-family: segoe UI;
+            @media (max-width: 575px) { 
+                font-size: 20px;
+             }
+            @media (min-width: 576px) and (max-width: 767px) { 
+                font-size: 20px;
+             }
             .eblue {
                 color: #4bcaff;
             } 
@@ -50,7 +56,12 @@ body {
         background:url(img/section-hero.png);
         background-size: cover;
         background-position: center;
-      
+        @media (max-width: 575px) { 
+            height: 100vh;
+         }
+        @media (min-width: 576px) and (max-width: 767px) { 
+            height: 100vh;
+         }
         .imlooking  {
             color: white;
             font-size: 35px;
@@ -60,6 +71,12 @@ body {
                 font-family: segoe UI;
                 font-size: 42px;
                 font-weight: lighter;
+                @media (max-width: 575px) { 
+                    font-size: 25px;
+                 }
+                @media (min-width: 576px) and (max-width: 767px) { 
+                    font-size: 40px;
+                 }
             
             }
             .bkimlooking{
@@ -173,9 +190,6 @@ body {
                     padding: 10px;
                     margin-top: 5vh;
                 }
-            }
-            .youtube-video{
-               
             }
         }
     }
@@ -308,7 +322,7 @@ body {
     .finalfooter {
         background-color: #353f47;
         margin-top: -5px;
-        padding: 80px 20%;
+        padding: 50px;
         font-family: segoe UI;
         color: #4e5b63;
         
